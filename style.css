@@ -56,6 +56,7 @@ body{
     font-family:"Josefin Sans", sans-serif;
     
     line-height: inherit;
+
     
     
 }
@@ -78,33 +79,20 @@ header{
     box-sizing: border-box;
     
 }
-#home ul a li {
-    display: inline;
-    margin-right: 100px;
-    text-align: center;
-    
 
-    
-}
- #firstofhome li{
-    color: rgb(0, 45, 209);
-}
 
-nav#home ul  a {
+
+nav#home ul  p {
 text-decoration: none;
 color: rgb(48, 62, 85);
-font-size: 20px;
+font-size: 40px;
 font-weight: 500;
 font-family: "Josefin Sans", sans-serif;
+margin-top: -20px;
+margin-left: 120px;
 
 }
-#home ul a li:hover {
-    color: blue;
-   
-}
 
-
-   
 
 
 #home ul {
@@ -117,14 +105,27 @@ font-family: "Josefin Sans", sans-serif;
     width: 1208px;
     
 }
+.menu {
+   display: inline;
+   margin-left: 190px;
+  font-size: 20px;
+}
+.menu a{
+  text-decoration: none;
+}
+.menu .Login{
+  margin-right: 22px;
+ 
+}
 .menu img{
-   float:right;
-   margin-top: -20px;
-   width: 22px;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+
 }
 .giay__img{
     padding: 20px;
-    background-image: url("image/830639.jpg") ;
+    background-image: url("image2/top-100-truong-dai-hoc-quoc-gia-my.jpg") ;
     width: 1408px;
     height: 750px;
     background-repeat: no-repeat;
@@ -233,9 +234,10 @@ button#tatca{
  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr ;
-  grid-template-rows:355px 355px 355px 355px ;
+  grid-template-rows:355px 355px  ;
   margin-top: 20px;
-  
+  width: 1408px;
+ 
   
 }
 .itemsgird{
@@ -274,7 +276,7 @@ p.price-title{
 
   display: flex;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 15px;
 
 }
 .price .price-icon-img{
@@ -296,3 +298,4 @@ p.price-title{
   display: flex;
   
 }
+
